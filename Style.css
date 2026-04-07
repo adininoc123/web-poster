@@ -1,0 +1,63 @@
+body { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+.Poster{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('https://picsum.photos/1200');
+    background-size: cover;
+    background-position: center;
+}
+
+/* TITLE */
+.title{
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: 5px; /* spacing between letters */
+    text-transform: uppercase;
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.5); /* glow effect */
+    margin-bottom: 20px;
+}
+
+/* QUOTE */
+.quote{
+    font-size: 28px; 
+    font-style: italic;
+    margin: 15px 0;
+    line-height: 1.5;
+    max-width: 600px;
+}
+
+/* AUTHOR */
+.Author{
+    font-size: 24px;
+    font-style: oblique;
+    font-weight: bold;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+/* BUTTON STYLE (poster CTA) */
+.btn{
+    margin-top: 30px;
+    padding: 12px 25px;
+    background: #22c55e;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background: #16a34a;
+    transform: scale(1.1);
+}
